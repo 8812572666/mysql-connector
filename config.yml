@@ -1,0 +1,8 @@
+tunnel: mysql-app
+credentials-file: C:\Users\dell\Desktop\curos测试\.cloudflared\credentials.json
+origincert: C:\Users\dell\.cloudflared\cert.pem
+ingress:
+  - hostname: mysql-app.yourdomain.com
+    service: http://localhost:3000
+  - service: http_status:404
+logfile: tunnel.log 

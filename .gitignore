@@ -1,0 +1,22 @@
+# Node.js
+node_modules/
+.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# Runtime data
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cloudflare
+.cloudflared/
+*.pem
+
+# IDE
+.vscode/
+.idea/ 
